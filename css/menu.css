@@ -1,0 +1,122 @@
+/*     -------------------------------menu------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Menu {
+    background-color: #6941C6;
+    background-image: image("../image produit/pex   els-paula-128639.jpg");
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    width: 8.125em;
+    height: 8.125em;
+}
+
+.menu-a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: end;
+    padding-left: 86px;
+    padding-right: 86px;
+    width: 100%;
+}
+
+.menu-a a {
+    display: grid;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.container {
+    display: grid;
+    column-gap: 80px;
+}
+
+/*--------------------------------------image accueil------------------------------*/
+
+.image_bois_Accueil {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 70px;
+}
+
+.image_bois {
+    width: 100%;
+    height: 40%;
+}
+
+.Accueil {
+    position: absolute;
+    text-align: center;
+}
+
+/*--------------------------------------image nature-----------------------------------*/
+
+.mega_grid {
+    margin: 2%;
+}
+
+.image_nature {
+    display: flex;
+    align-items: center;
+}
+
+.image_nature img {
+    flex: 1;
+    width: 50%;
+    padding-right: 86px;
+}
+
+texte_nature {
+    flex: 1;
+    font-size: 2.5em;
+    padding-right: 86px;
+}
+
+/*--------------------------------------tour eiffel------------------------------*/
+
+.image_tour_eiffel {
+    display: flex;
+    flex: 1;
+    margin-right: 2%;
+}
+
+.texte_livraison {
+    flex: 1;
+    font-size: 2em;
+    margin-right: 2%;
+    margin-top: 15%;
+}
+
+/*---------------------------------------video--------------------------------------------*/
+
+.Video_fabrication {
+    display: flex;
+    width: 450vw;
+    height: 20vw;
+    flex-shrink: 0;
+    margin-top: 5%;
+}
+
+.texte_video {
+    flex: 1;
+    font-size: 2.5em;
+    margin-left: 2%;
+}
+
+
+

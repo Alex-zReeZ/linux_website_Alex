@@ -1,0 +1,97 @@
+.container_2 {
+    color: black;
+    font-family: Jura, serif;
+    font-size: 1.3vw;
+    border-radius: 0px;
+    margin-left: 0%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Button_Facebook {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    background-color: #C4C4C4;
+    border-radius: 69px;
+    text-align: center;
+}
+
+.logofacebook {
+    padding-left: 4.5%;
+    padding-top: 5%;
+}
+
+
+.txtfacebook {
+    margin: 9%;
+    padding-right: 12%;
+}
+
+.txtgoogle {
+    margin: 9%;
+    padding-right: 16%;
+}
+
+.design {
+    height: 65vh;
+    background-color: #6941C6;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.design img {
+    margin-top: 20%;
+}
+
+.continue_w {
+    text-align: center;
+}
+
+.EMAIL_1 > input[type=email] {
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.6vw;
+    box-sizing: border-box;
+    margin-top: 2%;
+    background-color: #C4C4C4;
+    border-radius: 68px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 1.6vw;
+    box-sizing: border-box;
+    margin-top: 2%;
+    background-color: #C4C4C4;
+    border-radius: 68px;
+}
+
+#conditions {
+    font-size: 1vw;
+}
+
+input[type=submit] {
+    background-color: #C4C4C4;
+    display: block;
+    font-size: 1.65vw;
+    font-family: Jura, serif;
+    padding: 1%;
+    border-radius: 10px;
+    width: 100%;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+

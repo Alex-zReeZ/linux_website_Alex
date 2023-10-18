@@ -1,0 +1,59 @@
+
+.contact {
+    margin: 3%;
+}
+
+.Google {
+    float: right;
+    margin: 2%;
+}
+
+
+
+.container_3 {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50px;
+    border: 1px solid #000;
+    background: var(--neutral-n-0, #FFF);
+    box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.30);
+}
+
+form {
+    margin: 2%;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+}
+
+.contact > input[type="text"],
+.contact > input[type="tel"],
+.contact > input[type="email"],
+.contact > textarea {
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+
+
+}
+
+
+button {
+    background-color: #0982FE;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+
+.background_violet {
+    background-color: #6941C6;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
